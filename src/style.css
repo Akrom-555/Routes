@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color :rgba(0, 0, 0, 0.836);
+    color:white;
+}
+.wrapper{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.home-content{
+ display: flex;
+ justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+}
+.container{
+    color: antiquewhite;
+   
+
+    
+  
+}
+.navLink{
+    display: flex;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+   text-decoration: none;
+    
+
+}
+h2{
+
+    font-size: 32px;
+}
+.Home-Page{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.Home-Page h1{
+    font-weight:700;
+    font-size: 44px;
+}
+.home-text{
+   margin-top: -15px;
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.home-button{
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    margin: 20px;
+    border-radius: 5px;
+    border: 4px solid rgba(0, 0, 0, 0.567);
+}
+.footer-text{
+    margin-top: 200px;
+}
+.map{
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+}
+.block{
+    margin-right: 15px;
+
+}
+.home{
+    padding-bottom: 2px;
+    color: rgba(245, 242, 242, 0.768);
+    text-decoration: none;
+    border-bottom: 5px solid rgba(255, 249, 249, 0.544);
+}
+
+.home:hover{
+    color: rgba(246, 241, 241, 0.768);
+    text-decoration: none;
+    border-bottom: 5px solid rgb(254, 254, 254);
+    font-size: 22px;
+}
+.Features{
+    padding-bottom: 2px;
+    color: rgba(135, 129, 129, 0.768);
+    text-decoration: none;
+}
+
+.Features:hover{
+    padding-bottom: 2px;
+    border-bottom: 5px solid rgba(135, 129, 129, 0.768);
+}
+
+.Contact{
+    padding-bottom: 2px;
+    color: rgba(135, 129, 129, 0.768);
+    text-decoration: none;
+}
+.Contact:hover{
+    padding-bottom: 2px;
+    border-bottom: 5px solid rgba(135, 129, 129, 0.768);
+}
